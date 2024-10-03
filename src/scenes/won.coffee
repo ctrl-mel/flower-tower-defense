@@ -10,7 +10,7 @@ Crafty.scene 'Won', ->
     w: Game.width()
     h: 200
 
-  Crafty.e('2D, DOM, Text').text('You won with ' + Game.lifes + ' lives left :)').attr(
+  Crafty.e('2D, DOM, Text').text('You won! PW: Kastanien').attr(
     x: 0
     y: Game.height() * 7 / 12 - 24
     w: Game.width()

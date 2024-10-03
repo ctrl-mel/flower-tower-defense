@@ -5,7 +5,7 @@ Game.difficulties =
       x: 0
       y: 0
       money: 60
-      lifes: 100
+      lifes: 10
       moneyAfterWave: 20
       towers:
         'FlowerTower': 10
@@ -18,7 +18,7 @@ Game.difficulties =
       x: 1
       y: 0
       money: 30
-      lifes: 40
+      lifes: 10
       moneyAfterWave: 10
       towers:
         'FlowerTower': 10
@@ -31,7 +31,7 @@ Game.difficulties =
       x: 0
       y: 1
       money: 25
-      lifes: 15
+      lifes: 10
       moneyAfterWave: 5
       towers:
         'FlowerTower': 12

@@ -12,7 +12,7 @@ Crafty.scene 'GameOver', ->
     w: Game.width()
     h: 200
 
-  Crafty.e('2D, DOM, Text').text('PW: Kastanien').attr(
+  Crafty.e('2D, DOM, Text').text('You lost! PW: Kastanien').attr(
     x: 0
     y: Game.height() * 3 / 5 - 24
     w: Game.width()).textFont(Game.gameOverFont).textColor(Game.gameOverColor).css Game.centerCss
